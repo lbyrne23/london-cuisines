@@ -9,7 +9,7 @@
 //  4. Copy the URL and paste it below
 //
 export const SHEET_CSV_URL =
-  'https://docs.google.com/spreadsheets/d/e/2PACX-1vS56Wwjwg5bI8lnTPaJ5m6qAt1SGMqDoqkY3tFR2l1cphL_fXQ6yPkThmHYNu3rjHlYbsdUruicyc6H/pub?gid=0&single=true&output=csv'
+  'https://docs.google.com/spreadsheets/d/e/2PACX-1vS56Wwjwg5bI8lnTPaJ5m6qAt1SGMqDoqkY3tFR2l1cphL_fXQ6yPkThmHYNu3rjHlYbsdUruicyc6H/pub?gid=483228294&single=true&output=csv'
 
 // Expected column headers in your Google Form / Sheet:
 //   Cuisine            ← dropdown value (must match cuisine name exactly)
