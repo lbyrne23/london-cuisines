@@ -21,7 +21,7 @@ export async function fetchRestaurants() {
           id: String(i),
           cuisineId: resolveCuisineId(row['Cuisine'] ?? ''),
           cuisineName: (row['Cuisine'] ?? '').trim(),
-          name: (row['Restaurant name'] ?? '').trim(),
+          name: (row['Restaurant'] ?? '').trim(), 
           status: (row['Status'] ?? '').trim(),           // "Tried" | "Want to try"
           date: (row['Date'] ?? '').trim() || null,
           rating: row['Rating'] ? parseInt(row['Rating'], 10) : null,
